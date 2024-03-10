@@ -1,0 +1,89 @@
+body {
+    background-image: url(pexels-nitin-arya-1029141.jpg);
+    height: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color:beige;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+}
+
+.newBook:hover {
+    background-color: blanchedalmond;
+}
+
+.newBook, .showBooks {
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(197, 197, 177);
+    border-radius: 10vw;
+    font-size: 1vw;
+}
+
+#dialog {
+    position:absolute;
+    top: 25vh;
+    background-color: rgb(108, 94, 75);
+    height: 30vh;
+    border: 0;
+    border-radius: 5vh 1vh  5vh 1vh;
+    width: 20vw;
+    opacity: 0.6;
+}
+
+#dialog > form {
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2vh;
+    font-family:Helvetica, sans-serif;
+    color:antiquewhite;
+}
+
+#dialog > form > input {
+    height: 10%;
+    width: 80%;
+    font-size: 1.8vh;
+    background-color: antiquewhite;
+}
+
+#readChk {
+    margin-top: 4%;
+}
+
+#dialog > form > button {
+    width: 40%;
+    height: 12%;
+    font-size:1.5vh;
+}
+
+.addBook {
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+
+#dialog > form > input:invalid {
+    border-color: red;
+}
+
+.displayCards {
+    color:antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 5vw;
+    font-size: 1.5vw;
+}
+
